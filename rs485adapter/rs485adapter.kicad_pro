@@ -419,6 +419,10 @@
     [
       "cad5738f-8f5b-4ab7-bd40-022219598bb5",
       "Power Supply"
+    ],
+    [
+      "5c441b0c-0b61-424c-828d-9cbeb3302948",
+      "Current and Voltage Sense"
     ]
   ],
   "text_variables": {}

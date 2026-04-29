@@ -1322,32 +1322,22 @@
 		(uuid "e60d3072-559d-46d5-a669-d653dc3be553")
 	)
 	(no_connect
-		(at 64.77 73.66)
+		(at 44.45 76.2)
 		(uuid "04431746-7a58-42ab-a23b-fc7500b75fe4")
 	)
 	(no_connect
-		(at 64.77 76.2)
+		(at 44.45 78.74)
 		(uuid "0bb7ba33-5791-4054-aead-03fea747f6bf")
 	)
 	(wire
 		(pts
-			(xy 44.45 73.66) (xy 41.91 73.66)
+			(xy 64.77 76.2) (xy 77.47 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1bddb989-8379-4ca4-8b57-b87790290e30")
-	)
-	(wire
-		(pts
-			(xy 41.91 71.12) (xy 41.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3a8321-2eba-43f1-93ea-9850ef13bc47")
 	)
 	(wire
 		(pts
@@ -1371,7 +1361,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 76.2) (xy 41.91 78.74)
+			(xy 67.31 78.74) (xy 67.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1401,6 +1391,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 76.2) (xy 77.47 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928812eb-0a2e-422b-bf62-3c7294b9897a")
+	)
+	(wire
+		(pts
 			(xy 90.17 71.12) (xy 90.17 76.2)
 		)
 		(stroke
@@ -1421,23 +1421,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 76.2) (xy 41.91 76.2)
+			(xy 64.77 78.74) (xy 67.31 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc3637e9-d6e8-4e5e-a1aa-d195e74e94d8")
-	)
-	(wire
-		(pts
-			(xy 77.47 76.2) (xy 77.47 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cec3e75f-dbcd-4709-98a4-9f6cb0e3d1da")
 	)
 	(wire
 		(pts
@@ -1451,7 +1441,8 @@
 	)
 	(symbol
 		(lib_id "XT60PW-M:XT60PW-M")
-		(at 44.45 73.66 0)
+		(at 64.77 76.2 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1460,14 +1451,6 @@
 		(fields_autoplaced yes)
 		(uuid "047f29ce-f936-41c1-90d1-1af3e19be4de")
 		(property "Reference" "J?"
-			(at 54.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V IN"
 			(at 54.61 68.58 0)
 			(effects
 				(font
@@ -1475,8 +1458,16 @@
 				)
 			)
 		)
+		(property "Value" "12V IN"
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "XT60PWM"
-			(at 60.96 168.58 0)
+			(at 48.26 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1477,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf"
-			(at 60.96 268.58 0)
+			(at 48.26 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1487,7 @@
 			)
 		)
 		(property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"
-			(at 44.45 73.66 0)
+			(at 64.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1496,7 @@
 			)
 		)
 		(property "Height" "8.4"
-			(at 60.96 468.58 0)
+			(at 48.26 471.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1506,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Changzou Amass Elec"
-			(at 60.96 568.58 0)
+			(at 48.26 571.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1516,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XT60PW-M"
-			(at 60.96 668.58 0)
+			(at 48.26 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +1526,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 60.96 768.58 0)
+			(at 48.26 771.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1536,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 60.96 868.58 0)
+			(at 48.26 871.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1546,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 60.96 968.58 0)
+			(at 48.26 971.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1556,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 60.96 1068.58 0)
+			(at 48.26 1071.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,72 +1944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 41.91 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "653093b5-f734-4971-8f6a-f57bc09b7e5a")
-		(property "Reference" "#PWR0101"
-			(at 41.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VINV"
-			(at 41.91 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d808fcf0-207a-4199-a0e9-a7cf5dd676a8")
-		)
-		(instances
-			(project "rs485adapter"
-				(path "/67070bee-4be5-4827-8b73-60c16857e4b5"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 44.45 114.3 0)
 		(unit 1)
@@ -2088,7 +2013,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 78.74 0)
+		(at 67.31 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2097,7 +2023,7 @@
 		(fields_autoplaced yes)
 		(uuid "d92d879a-3b66-41af-abf5-4dd08dbe1a36")
 		(property "Reference" "#PWR0102"
-			(at 41.91 85.09 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2032,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 83.82 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 78.74 0)
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 78.74 0)
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 78.74 0)
+			(at 67.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
