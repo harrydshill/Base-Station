@@ -999,7 +999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06cea703-2260-43de-ad9c-25e3dad2b54f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR040"
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -1049,7 +1049,7 @@
 		(instances
 			(project "rs485adapter"
 				(path "/67070bee-4be5-4827-8b73-60c16857e4b5/5c441b0c-0b61-424c-828d-9cbeb3302948"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1171,7 +1171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 135.128 54.61 90)
 			(effects
 				(font
@@ -1223,7 +1223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3873a2-5fdf-4d6d-9ee9-03f4815abc40")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 124.46 50.8 0)
 			(effects
 				(font
@@ -1273,7 +1273,7 @@
 		(instances
 			(project "rs485adapter"
 				(path "/67070bee-4be5-4827-8b73-60c16857e4b5/5c441b0c-0b61-424c-828d-9cbeb3302948"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1307,7 +1307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.238 54.61 90)
 			(effects
 				(font
@@ -1359,7 +1359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "894e5b64-c0c1-4978-a9a2-05a6c4cd6f60")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -1409,7 +1409,7 @@
 		(instances
 			(project "rs485adapter"
 				(path "/67070bee-4be5-4827-8b73-60c16857e4b5/5c441b0c-0b61-424c-828d-9cbeb3302948"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1425,7 +1425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac356ff2-f441-41b7-bcb8-c185c8bf399a")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 96.52 43.18 90)
 			(effects
 				(font
@@ -1441,7 +1441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.33 49.8348 0)
 			(effects
 				(font
@@ -1477,7 +1477,7 @@
 		(instances
 			(project "rs485adapter"
 				(path "/67070bee-4be5-4827-8b73-60c16857e4b5/5c441b0c-0b61-424c-828d-9cbeb3302948"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1493,7 +1493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd6fb00d-6c5a-4e98-8549-932d60f2744a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -1543,7 +1543,7 @@
 		(instances
 			(project "rs485adapter"
 				(path "/67070bee-4be5-4827-8b73-60c16857e4b5/5c441b0c-0b61-424c-828d-9cbeb3302948"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1559,7 +1559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db546a6d-9404-49d0-9516-f5fac2b70db6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -1609,7 +1609,7 @@
 		(instances
 			(project "rs485adapter"
 				(path "/67070bee-4be5-4827-8b73-60c16857e4b5/5c441b0c-0b61-424c-828d-9cbeb3302948"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1625,7 +1625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de91ee7c-7539-45be-982f-d34ca683ba86")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR039"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -1675,7 +1675,7 @@
 		(instances
 			(project "rs485adapter"
 				(path "/67070bee-4be5-4827-8b73-60c16857e4b5/5c441b0c-0b61-424c-828d-9cbeb3302948"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
