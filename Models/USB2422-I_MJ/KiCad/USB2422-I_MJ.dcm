@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB2422-I_MJ
+D USB2422-I/MJ, USB Hub USB 2.0, 3  3.6 V, 24-Pin, SQFN
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-15/280029.pdf
+$ENDCMP
+#
+#End Doc Library
