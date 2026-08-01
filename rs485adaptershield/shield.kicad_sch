@@ -4009,6 +4009,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "all the i/o is 5V!\n"
+		(exclude_from_sim no)
+		(at 130.302 105.41 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1387f044-4ab7-4cf2-b1cd-123df93da7f5")
+	)
+	(text "Go and relabel all signals with line voltage\n"
+		(exclude_from_sim no)
+		(at 119.126 112.522 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2203e538-d59b-4fc0-ade5-1cf454db8999")
+	)
 	(text "check flipping\n"
 		(exclude_from_sim no)
 		(at 211.074 48.514 0)
@@ -4018,6 +4042,18 @@
 			)
 		)
 		(uuid "4dc22076-04fe-4a3d-bc35-2d598b9a01d0")
+	)
+	(text "Use the dual mos package from power elec to control the usb rst and power supply enable"
+		(exclude_from_sim no)
+		(at 113.03 121.92 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5aefad7b-6563-452a-878e-50a54e5ce67d")
 	)
 	(text "check flipping\n"
 		(exclude_from_sim no)
@@ -4064,12 +4100,12 @@
 		(uuid "4ee05c8a-8fa5-4349-a16e-981cc77392e2")
 	)
 	(no_connect
-		(at 184.15 58.42)
-		(uuid "9fe1b266-77fd-4005-a9ff-c1e8599a00d3")
+		(at 184.15 30.48)
+		(uuid "575e0c82-228e-4758-b8a1-32355019233a")
 	)
 	(no_connect
-		(at 184.15 30.48)
-		(uuid "a85558e6-fb33-4f23-ab58-e60eac968051")
+		(at 184.15 58.42)
+		(uuid "9fe1b266-77fd-4005-a9ff-c1e8599a00d3")
 	)
 	(wire
 		(pts
@@ -4160,6 +4196,16 @@
 			(type default)
 		)
 		(uuid "23b31cdc-5231-448a-81af-988fe6503f3e")
+	)
+	(wire
+		(pts
+			(xy 41.91 90.17) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3097ea47-3012-468b-bfb0-7d99f39f17b5")
 	)
 	(wire
 		(pts
@@ -4433,6 +4479,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 92.71) (xy 38.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debdbdcc-d1c9-4bba-b084-1d92a45eb5e1")
+	)
+	(wire
+		(pts
 			(xy 73.66 41.91) (xy 81.28 41.91)
 		)
 		(stroke
@@ -4491,16 +4547,6 @@
 		)
 		(uuid "fb6e814f-c3d1-4c25-bc64-42eb7fbf99f4")
 	)
-	(label "B-"
-		(at 228.6 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04e65d42-3baf-44a3-8ac8-90907bdf26b7")
-	)
 	(label "A+"
 		(at 228.6 35.56 270)
 		(effects
@@ -4550,16 +4596,6 @@
 			(justify right bottom)
 		)
 		(uuid "2eab37b2-3c95-4d24-8b02-3e36c5279c2d")
-	)
-	(label "¬RE"
-		(at 213.36 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5962a4d1-54dd-44ec-8718-ab26a47a4f9c")
 	)
 	(label "DC-"
 		(at 186.69 45.72 0)
@@ -4631,36 +4667,6 @@
 		)
 		(uuid "ab0342be-2d5a-45b7-8796-8053771ba1c5")
 	)
-	(label "DI"
-		(at 213.36 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "adc020db-b37a-45f0-9f05-c1e866bdd4b9")
-	)
-	(label "A+"
-		(at 228.6 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b07cf07d-9ec2-447e-8501-7dc4673fcbc3")
-	)
-	(label "DE"
-		(at 213.36 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b14b71fe-8d9d-44bf-80a5-f1aa8f566cf7")
-	)
 	(label "AUX2"
 		(at 236.22 58.42 270)
 		(effects
@@ -4680,16 +4686,6 @@
 			(justify left bottom)
 		)
 		(uuid "d54286e0-921b-4e67-a21e-b8514229c5a2")
-	)
-	(label "RO"
-		(at 213.36 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f9043117-1374-4e49-8289-4840bc644bc9")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -6081,6 +6077,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 41.91 92.71 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e9a7abe-6039-445f-8b9a-70512ed9ba92")
+		(property "Reference" "#PWR010"
+			(at 38.1 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBATT"
+			(at 51.562 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 41.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e2ce849-d312-4b51-be03-deb0497708e3")
+		)
+		(instances
+			(project "shield"
+				(path "/4deaa014-311e-404e-963e-ca894f6a7656"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 72.39 270)
 		(mirror x)
@@ -6649,6 +6724,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 41.91 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0145752-44a9-4cd4-bed8-726e749f48aa")
+		(property "Reference" "#PWR036"
+			(at 38.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 41.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3f15b69-8521-4ba2-b09f-96493554b23a")
+		)
+		(instances
+			(project "shield"
+				(path "/4deaa014-311e-404e-963e-ca894f6a7656"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 69.85 0)
 		(unit 1)
@@ -6845,7 +6999,7 @@
 				)
 			)
 		)
-		(property "Value" "VIN"
+		(property "Value" "VBATT"
 			(at 106.426 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7523,7 +7677,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 53.34)
+		(at 58.42 85.09)
 		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7539,7 +7693,7 @@
 		)
 		(uuid "74daa474-52bb-4cf5-a689-d56ba7a4594e")
 		(property "Sheetname" "Power Supply"
-			(at 26.67 52.6284 0)
+			(at 58.42 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7550,7 +7704,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 26.67 65.3546 0)
+			(at 58.42 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7569,8 +7723,8 @@
 		)
 	)
 	(sheet
-		(at 213.36 106.68)
-		(size 15.24 12.7)
+		(at 209.55 90.17)
+		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7585,7 +7739,7 @@
 		)
 		(uuid "7a24a64c-ec7f-478a-9991-2a7b19812aeb")
 		(property "Sheetname" "RS485 TxRx"
-			(at 213.36 105.9684 0)
+			(at 209.55 89.4584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7596,7 +7750,7 @@
 			)
 		)
 		(property "Sheetfile" "rs485.kicad_sch"
-			(at 213.36 119.9646 0)
+			(at 209.55 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7604,66 +7758,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "B-" output
-			(at 228.6 114.3 0)
-			(uuid "d17a732f-9063-4b0a-ae9a-95f7e42b8478")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A+" output
-			(at 228.6 111.76 0)
-			(uuid "01643c51-94ff-41a9-a7b9-411cf52f8f94")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RO" input
-			(at 213.36 109.22 180)
-			(uuid "ef80486e-376d-4262-8109-9b25fabdbf1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DI" input
-			(at 213.36 116.84 180)
-			(uuid "cceb4cff-c5d5-4cdb-ace7-e1b96ee6e3fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "¬RE" input
-			(at 213.36 111.76 180)
-			(uuid "ddbe73fc-0694-4fd9-9485-2189b8e6bb2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DE" input
-			(at 213.36 114.3 180)
-			(uuid "fa914145-0745-4a2c-8ead-b995b048b8eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -7740,7 +7834,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 76.2)
+		(at 162.56 132.08)
 		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7756,7 +7850,7 @@
 		)
 		(uuid "d3c94d39-8be6-4de5-8b77-fbd7714a2286")
 		(property "Sheetname" "USB"
-			(at 181.61 75.4884 0)
+			(at 162.56 131.3684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7767,7 +7861,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 181.61 93.2946 0)
+			(at 162.56 149.1746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
