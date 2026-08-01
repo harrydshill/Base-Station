@@ -4033,6 +4033,16 @@
 		)
 		(uuid "2203e538-d59b-4fc0-ade5-1cf454db8999")
 	)
+	(text "diagram reminder"
+		(exclude_from_sim no)
+		(at 71.12 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33c5659d-c96a-4f93-8811-22b787f8a857")
+	)
 	(text "check flipping\n"
 		(exclude_from_sim no)
 		(at 211.074 48.514 0)
