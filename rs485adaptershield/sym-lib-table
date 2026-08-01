@@ -4,4 +4,5 @@
 	(lib (name "TPSM33606S5QRDNRQ1") (type "KiCad") (uri "E:/Git/BaseStation/Base Station/Models/TPSM33606S5QRDNRQ1/2026-07-31_12-59-42.kicad_sym") (options "") (descr ""))
 	(lib (name "USB2422-I_MJ") (type "KiCad") (uri "E:/Git/BaseStation/Base Station/Models/USB2422-I_MJ/KiCad/USB2422-I_MJ.kicad_sym") (options "") (descr ""))
 	(lib (name "XRCGB24M000F1SBJR0") (type "KiCad") (uri "E:/Git/BaseStation/Base Station/Models/XRCGB24M000F1SBJR0/KiCad/XRCGB24M000F1SBJR0.kicad_sym") (options "") (descr ""))
+	(lib (name "UT6KE5TCR") (type "KiCad") (uri "E:/Git/BaseStation/Base Station/Models/UT6KE5/UT6KE5TCR.kicad_sym") (options "") (descr ""))
 )
