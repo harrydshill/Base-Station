@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "IMPORTED") (type "KiCad") (uri "E:/Git/BaseStation/Base Station/Models/IMPORTED.pretty") (options "") (descr ""))
+)
