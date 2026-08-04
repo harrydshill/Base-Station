@@ -1491,8 +1491,18 @@
 		)
 		(uuid "f63c0269-7e8d-4e2a-98d9-87cf4bb9d1c3")
 	)
+	(label "TX"
+		(at 124.46 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "077d7e3e-89a2-465f-97a9-83e11cd2cf0e")
+	)
 	(label "B"
-		(at 194.31 109.22 0)
+		(at 193.04 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1501,18 +1511,18 @@
 		)
 		(uuid "13b41c6e-cf8a-429c-8a99-e2f92a33ebe4")
 	)
-	(label "R"
-		(at 40.64 182.88 0)
+	(label "¬RESET"
+		(at 60.96 170.18 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2b2d2236-c8ae-429d-9d0b-aa201ae1e4f8")
+		(uuid "1a033ccb-39d2-4505-93a0-35488921d325")
 	)
-	(label "¬RE"
-		(at 123.19 99.06 0)
+	(label "¬RESET"
+		(at 116.84 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1521,15 +1531,25 @@
 		)
 		(uuid "391422a3-f055-4372-aeb4-0bcf60ec871b")
 	)
-	(label "¬RE"
-		(at 60.96 170.18 0)
+	(label "¬SHUTDOWN"
+		(at 50.8 182.88 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4112e696-987d-4fac-8996-8a480beea733")
+	)
+	(label "RX"
+		(at 124.46 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8cc44d40-49d9-4556-9e31-61b68a6e1005")
+		(uuid "55ffa035-0a6a-450c-8aa4-995ea051155b")
 	)
 	(label "A"
 		(at 193.04 86.36 0)
@@ -1541,7 +1561,7 @@
 		)
 		(uuid "8ec61d6c-6e4d-4b86-a8b5-719b515e800c")
 	)
-	(label "¬SHDN"
+	(label "¬SHUTDOWN"
 		(at 124.46 96.52 180)
 		(effects
 			(font
@@ -1551,25 +1571,15 @@
 		)
 		(uuid "956d1167-4ce4-4ee1-a485-75929e4f6750")
 	)
-	(label "R"
-		(at 124.46 101.6 0)
+	(label "RX"
+		(at 40.64 182.88 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "d7397ea2-4172-4c9c-943f-47487f35d573")
-	)
-	(label "¬SHDN"
-		(at 50.8 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff7b529b-dcb5-4739-aa12-c669003f942a")
+		(uuid "b8951d00-ee4c-48a0-a2b9-63be35633e3e")
 	)
 	(hierarchical_label "R"
 		(shape output)
