@@ -2917,7 +2917,7 @@
 		)
 		(uuid "ff8755dd-e344-4dbc-8025-b2e8fd246602")
 	)
-	(label "VBUS_OUT_A"
+	(label "VBUS_OUT_B"
 		(at 193.04 27.94 0)
 		(effects
 			(font
@@ -2927,7 +2927,7 @@
 		)
 		(uuid "04d753f4-4597-40d4-8d57-26229fad7ca2")
 	)
-	(label "VBUS_OUT_B"
+	(label "VBUS_OUT_A"
 		(at 191.77 83.82 0)
 		(effects
 			(font
@@ -3057,16 +3057,6 @@
 		)
 		(uuid "86347371-30eb-4989-bb70-fca7d54c8e53")
 	)
-	(label "VBUS_A"
-		(at 165.1 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8823cae6-a68c-4839-a2c0-263a10c9592e")
-	)
 	(label "¬FLG_A"
 		(at 193.04 33.02 0)
 		(effects
@@ -3157,16 +3147,6 @@
 		)
 		(uuid "e4a7a256-5e1e-44fb-a29d-a2def19261b4")
 	)
-	(label "VBUS_B"
-		(at 163.83 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea747968-ba54-4e14-80bd-cedb7d4d0fe1")
-	)
 	(label "EN_A"
 		(at 172.72 33.02 180)
 		(effects
@@ -3177,7 +3157,7 @@
 		)
 		(uuid "fcef0f4d-9429-4315-b282-b48b3616a75a")
 	)
-	(hierarchical_label "USB_OUT1_VBUS"
+	(hierarchical_label "USB_OUT_VBUS_B"
 		(shape output)
 		(at 223.52 27.94 0)
 		(effects
@@ -3265,7 +3245,7 @@
 		)
 		(uuid "c702a253-542c-4c38-9650-541be4aa0712")
 	)
-	(hierarchical_label "USB_OUT2_VBUS"
+	(hierarchical_label "USB_OUT_VBUS_A"
 		(shape output)
 		(at 222.25 83.82 0)
 		(effects
@@ -5758,8 +5738,8 @@
 				)
 			)
 		)
-		(property "Value" "VUSB2"
-			(at 151.638 83.82 90)
+		(property "Value" "VUSB_A"
+			(at 148.844 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6503,8 +6483,8 @@
 				)
 			)
 		)
-		(property "Value" "VUSB1"
-			(at 152.908 27.94 90)
+		(property "Value" "VUSB_B"
+			(at 150.114 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
