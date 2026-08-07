@@ -170,8 +170,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.25,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.005,
@@ -777,7 +777,7 @@
         "uuid": "4deaa014-311e-404e-963e-ca894f6a7656"
       }
     ],
-    "used_designators": "D5,#PWR5-7,#PWR16,#PWR21,#PWR41,#PWR105,R11,TP10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
