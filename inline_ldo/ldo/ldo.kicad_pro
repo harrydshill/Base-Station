@@ -221,7 +221,7 @@
         0.332,
         0.4,
         0.5,
-        0.75,
+        0.6,
         1.0,
         2.0
       ],
@@ -587,7 +587,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../rs485adaptershield/Ordering/LDO/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
